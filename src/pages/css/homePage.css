@@ -1,0 +1,111 @@
+.home-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo {
+}
+.logo img {
+  height: 30vh;
+}
+.main {
+  height: 50vh;
+  width: 70vw;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  box-shadow: 2px 2px 2px rgb(254, 254, 254);
+}
+.main form {
+  margin: 1rem;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+.main form input {
+  margin-right: 0.4rem;
+  padding: 0.3rem;
+  width: 80%;
+  outline: none;
+  padding-left: 1rem;
+}
+.main form button {
+  background-color: #0db561;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 0.35rem;
+  border-radius: 0.2rem;
+  transition: 0.3s ease-in-out;
+}
+.main form button:hover {
+  background-color: white;
+  color: #0db561;
+  border: 1px solid #0db561;
+}
+
+.videoData {
+  height: 50vh;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.videoData img {
+  width: 25rem;
+}
+
+.videoDataImage {
+  width: 50%;
+}
+.downloadList {
+  /* border: 1px solid red; */
+  width: 50%;
+}
+.downloadList ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #0db561;
+  background-color: #edf7f2;
+  margin: 0.3rem;
+  text-decoration: none;
+  list-style: none;
+  padding: 0.3rem 0.4rem;
+  border-radius: 0.4rem;
+  transition: 0.34s ease-in-out;
+}
+.downloadList ul li:hover {
+  padding: 0.5rem 0.5rem;
+}
+.downloadList ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.download-btn {
+  background-color: #0db561;
+  padding: 0.3rem 1rem;
+  border-radius: 0.4rem;
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+}
+.downloadList ul li span a:hover {
+  color: #0db561;
+}
+.download-btn:hover {
+  background-color: white;
+  border: 1px solid #0db561;
+  color: #0db561;
+}
+.loader {
+  height: 50vh;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
