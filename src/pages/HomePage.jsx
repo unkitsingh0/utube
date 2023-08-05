@@ -9,6 +9,7 @@ function HomePage() {
   let [videos, setvideos] = useState();
   let [loading, setLoading] = useState(false);
   let handelLink = async (e) => {
+    setvideos(undefined);
     setLoading(true);
     e.preventDefault();
     try {
